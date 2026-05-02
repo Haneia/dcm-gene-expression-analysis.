@@ -4,7 +4,7 @@ title: "Proposal"
 
 ## Research question
 
-Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences.
+Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences. Understanding these differences may help identify key disease mechanisms and support more targeted, personalized treatment strategies.
 
 ---
 
@@ -21,45 +21,45 @@ Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genet
 
 ## Planned analysis
 
-- **Cleaning/QC**
-  - Filter low-count genes to reduce noise  
-  - Normalize and log-transform gene expression data  
+**Cleaning/QC**
+- Filter low-count genes to reduce noise  
+- Normalize and log-transform gene expression data  
 
-- **Visualizations**
-  - Principal Component Analysis (PCA) to assess global variation  
-  - UMAP to visualize clustering patterns  
-  - Volcano plots for differential gene expression  
-  - PC1 distribution plots  
+**Visualizations**
+- Principal Component Analysis (PCA) to assess global variation  
+- UMAP to visualize clustering patterns  
+- Volcano plots for differential gene expression  
+- PC1 distribution plots  
 
-- **Statistical/ML approach**
-  - Differential gene expression analysis using the limma package  
-  - Identify significantly upregulated and downregulated genes  
-  - KEGG pathway enrichment analysis to identify biological pathways  
+**Statistical approach**
+- Differential gene expression analysis using the **limma** package  
+- Identify significantly upregulated and downregulated genes  
+- KEGG pathway enrichment analysis to identify biological pathways  
 
-- **How you’ll validate**
-  - Compare multiple groups (DCM vs control, male vs female)  
-  - Evaluate consistency across PCA and UMAP clustering  
-  - Use adjusted p-values (FDR) to control for multiple testing  
+**Evaluation approach**
+- Compare gene expression patterns across groups (DCM vs control, male vs female)  
+- Assess consistency across PCA and UMAP visualizations  
+- Use adjusted p-values (FDR) to ensure statistically reliable results  
 
 ---
 
 ## Deliverables
 
-- **Website sections**
-  - Introduction  
-  - Methods  
-  - Results  
-  - Discussion  
-  - References  
+**Website sections**
+- Introduction  
+- Methods  
+- Results  
+- Discussion  
+- References  
 
-- **Key figures/tables**
-  - PCA plot  
-  - UMAP plot  
-  - Volcano plots  
-  - PC1 distribution plot  
-  - KEGG pathway enrichment plot  
+**Key figures/tables**
+- PCA plot  
+- UMAP plot  
+- Volcano plots  
+- PC1 distribution plot  
+- KEGG pathway enrichment plot  
 
-- **Any optional stretch goals**
-  - Heatmap of differentially expressed genes  
-  - Additional pathway comparisons  
-  - Interactive visualizations using Plotly  
+**Optional stretch goals**
+- Heatmap of differentially expressed genes  
+- Additional pathway comparisons  
+- Interactive visualizations using Plotly  

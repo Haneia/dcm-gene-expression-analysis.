@@ -4,14 +4,14 @@
     "href": "proposal.html",
     "title": "Proposal",
     "section": "",
-    "text": "Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences."
+    "text": "Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences. Understanding these differences may help identify key disease mechanisms and support more targeted, personalized treatment strategies."
   },
   {
     "objectID": "proposal.html#research-question",
     "href": "proposal.html#research-question",
     "title": "Proposal",
     "section": "",
-    "text": "Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences."
+    "text": "Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences. Understanding these differences may help identify key disease mechanisms and support more targeted, personalized treatment strategies."
   },
   {
     "objectID": "proposal.html#datasets",
@@ -25,14 +25,14 @@
     "href": "proposal.html#planned-analysis",
     "title": "Proposal",
     "section": "3 Planned analysis",
-    "text": "3 Planned analysis\n\nCleaning/QC\n\nFilter low-count genes to reduce noise\n\nNormalize and log-transform gene expression data\n\nVisualizations\n\nPrincipal Component Analysis (PCA) to assess global variation\n\nUMAP to visualize clustering patterns\n\nVolcano plots for differential gene expression\n\nPC1 distribution plots\n\nStatistical/ML approach\n\nDifferential gene expression analysis using the limma package\n\nIdentify significantly upregulated and downregulated genes\n\nKEGG pathway enrichment analysis to identify biological pathways\n\nHow you’ll validate\n\nCompare multiple groups (DCM vs control, male vs female)\n\nEvaluate consistency across PCA and UMAP clustering\n\nUse adjusted p-values (FDR) to control for multiple testing"
+    "text": "3 Planned analysis\nCleaning/QC - Filter low-count genes to reduce noise\n- Normalize and log-transform gene expression data\nVisualizations - Principal Component Analysis (PCA) to assess global variation\n- UMAP to visualize clustering patterns\n- Volcano plots for differential gene expression\n- PC1 distribution plots\nStatistical approach - Differential gene expression analysis using the limma package\n- Identify significantly upregulated and downregulated genes\n- KEGG pathway enrichment analysis to identify biological pathways\nEvaluation approach - Compare gene expression patterns across groups (DCM vs control, male vs female)\n- Assess consistency across PCA and UMAP visualizations\n- Use adjusted p-values (FDR) to ensure statistically reliable results"
   },
   {
     "objectID": "proposal.html#deliverables",
     "href": "proposal.html#deliverables",
     "title": "Proposal",
     "section": "4 Deliverables",
-    "text": "4 Deliverables\n\nWebsite sections\n\nIntroduction\n\nMethods\n\nResults\n\nDiscussion\n\nReferences\n\nKey figures/tables\n\nPCA plot\n\nUMAP plot\n\nVolcano plots\n\nPC1 distribution plot\n\nKEGG pathway enrichment plot\n\nAny optional stretch goals\n\nHeatmap of differentially expressed genes\n\nAdditional pathway comparisons\n\nInteractive visualizations using Plotly"
+    "text": "4 Deliverables\nWebsite sections - Introduction\n- Methods\n- Results\n- Discussion\n- References\nKey figures/tables - PCA plot\n- UMAP plot\n- Volcano plots\n- PC1 distribution plot\n- KEGG pathway enrichment plot\nOptional stretch goals - Heatmap of differentially expressed genes\n- Additional pathway comparisons\n- Interactive visualizations using Plotly"
   },
   {
     "objectID": "results.html",

@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="research-question" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="research-question"><span class="header-section-number">1</span> Research question</h2>
-<p>Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences.</p>
+<p>Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genetic and environmental factors. In this project, we analyze publicly available RNA-seq data to evaluate how gene expression differs between male and female patients with DCM and identify the biological pathways most affected by disease and sex differences. Understanding these differences may help identify key disease mechanisms and support more targeted, personalized treatment strategies.</p>
 <hr>
 </section>
 <section id="datasets" class="level2" data-number="2">
@@ -175,78 +175,35 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="planned-analysis" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="planned-analysis"><span class="header-section-number">3</span> Planned analysis</h2>
-<ul>
-<li><strong>Cleaning/QC</strong>
-<ul>
-<li>Filter low-count genes to reduce noise<br>
-</li>
-<li>Normalize and log-transform gene expression data</li>
-</ul></li>
-<li><strong>Visualizations</strong>
-<ul>
-<li>Principal Component Analysis (PCA) to assess global variation<br>
-</li>
-<li>UMAP to visualize clustering patterns<br>
-</li>
-<li>Volcano plots for differential gene expression<br>
-</li>
-<li>PC1 distribution plots</li>
-</ul></li>
-<li><strong>Statistical/ML approach</strong>
-<ul>
-<li>Differential gene expression analysis using the limma package<br>
-</li>
-<li>Identify significantly upregulated and downregulated genes<br>
-</li>
-<li>KEGG pathway enrichment analysis to identify biological pathways</li>
-</ul></li>
-<li><strong>How you’ll validate</strong>
-<ul>
-<li>Compare multiple groups (DCM vs control, male vs female)<br>
-</li>
-<li>Evaluate consistency across PCA and UMAP clustering<br>
-</li>
-<li>Use adjusted p-values (FDR) to control for multiple testing</li>
-</ul></li>
-</ul>
+<p><strong>Cleaning/QC</strong> - Filter low-count genes to reduce noise<br>
+- Normalize and log-transform gene expression data</p>
+<p><strong>Visualizations</strong> - Principal Component Analysis (PCA) to assess global variation<br>
+- UMAP to visualize clustering patterns<br>
+- Volcano plots for differential gene expression<br>
+- PC1 distribution plots</p>
+<p><strong>Statistical approach</strong> - Differential gene expression analysis using the <strong>limma</strong> package<br>
+- Identify significantly upregulated and downregulated genes<br>
+- KEGG pathway enrichment analysis to identify biological pathways</p>
+<p><strong>Evaluation approach</strong> - Compare gene expression patterns across groups (DCM vs control, male vs female)<br>
+- Assess consistency across PCA and UMAP visualizations<br>
+- Use adjusted p-values (FDR) to ensure statistically reliable results</p>
 <hr>
 </section>
 <section id="deliverables" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="deliverables"><span class="header-section-number">4</span> Deliverables</h2>
-<ul>
-<li><strong>Website sections</strong>
-<ul>
-<li>Introduction<br>
-</li>
-<li>Methods<br>
-</li>
-<li>Results<br>
-</li>
-<li>Discussion<br>
-</li>
-<li>References</li>
-</ul></li>
-<li><strong>Key figures/tables</strong>
-<ul>
-<li>PCA plot<br>
-</li>
-<li>UMAP plot<br>
-</li>
-<li>Volcano plots<br>
-</li>
-<li>PC1 distribution plot<br>
-</li>
-<li>KEGG pathway enrichment plot</li>
-</ul></li>
-<li><strong>Any optional stretch goals</strong>
-<ul>
-<li>Heatmap of differentially expressed genes<br>
-</li>
-<li>Additional pathway comparisons<br>
-</li>
-<li>Interactive visualizations using Plotly</li>
-</ul></li>
-</ul>
+<p><strong>Website sections</strong> - Introduction<br>
+- Methods<br>
+- Results<br>
+- Discussion<br>
+- References</p>
+<p><strong>Key figures/tables</strong> - PCA plot<br>
+- UMAP plot<br>
+- Volcano plots<br>
+- PC1 distribution plot<br>
+- KEGG pathway enrichment plot</p>
+<p><strong>Optional stretch goals</strong> - Heatmap of differentially expressed genes<br>
+- Additional pathway comparisons<br>
+- Interactive visualizations using Plotly</p>
 
 
 </section>
