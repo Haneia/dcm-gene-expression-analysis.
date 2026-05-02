@@ -10,7 +10,7 @@ Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genet
 
 ## Dataset(s)
 
-- **Source:** Gene Expression Omnibus (GEO), dataset GSE141910  
+- **Source:** Gene Expression Omnibus (GEO), dataset [GSE141910](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141910)  
 - **Sample size:** 305 total samples  
   - Non-failing: 152 (70 males, 82 females)  
   - DCM: 153 (92 males, 61 females)  
