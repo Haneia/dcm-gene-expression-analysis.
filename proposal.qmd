@@ -22,21 +22,25 @@ Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genet
 ## Planned analysis
 
 **Cleaning/QC**
+
 - Filter low-count genes to reduce noise  
 - Normalize and log-transform gene expression data  
 
 **Visualizations**
-- Principal Component Analysis (PCA) to assess global variation  
+
+- Principal Component Analysis (PCA) to assess global variation
 - UMAP to visualize clustering patterns  
 - Volcano plots for differential gene expression  
 - PC1 distribution plots  
 
 **Statistical approach**
+
 - Differential gene expression analysis using the **limma** package  
 - Identify significantly upregulated and downregulated genes  
 - KEGG pathway enrichment analysis to identify biological pathways  
 
 **Evaluation approach**
+
 - Compare gene expression patterns across groups (DCM vs control, male vs female)  
 - Assess consistency across PCA and UMAP visualizations  
 - Use adjusted p-values (FDR) to ensure statistically reliable results  
@@ -53,6 +57,7 @@ Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genet
 - References  
 
 **Key figures/tables**
+
 - PCA plot  
 - UMAP plot  
 - Volcano plots  
@@ -60,6 +65,7 @@ Dilated cardiomyopathy (DCM) is a complex heart disease influenced by both genet
 - KEGG pathway enrichment plot  
 
 **Optional stretch goals**
+
 - Heatmap of differentially expressed genes  
 - Additional pathway comparisons  
 - Interactive visualizations using Plotly  
