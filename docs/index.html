@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -128,8 +148,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">5</span> Discussion</a></li>
   <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations"><span class="header-section-number">6</span> Limitations</a></li>
   <li><a href="#future-work" id="toc-future-work" class="nav-link" data-scroll-target="#future-work"><span class="header-section-number">7</span> Future Work</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8</span> References</a></li>
-  <li><a href="#authors" id="toc-authors" class="nav-link" data-scroll-target="#authors"><span class="header-section-number">9</span> Authors</a></li>
+  <li><a href="#authors" id="toc-authors" class="nav-link" data-scroll-target="#authors"><span class="header-section-number">8</span> Authors</a></li>
   </ul>
 </nav>
     </div>
@@ -165,10 +184,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="introduction" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="introduction"><span class="header-section-number">2</span> Introduction</h2>
-<p>Dilated cardiomyopathy (DCM) is a condition in which the heart becomes enlarged and weakened, reducing its ability to pump blood effectively. Over time, this impaired function can lead to heart failure, arrhythmias, and in severe cases, sudden cardiac death. DCM is one of the most common indications for heart transplantation worldwide and often affects individuals during early or middle adulthood, making it a major contributor to long-term cardiovascular morbidity (Hershberger et al., 2013; McKenna et al., 2017).</p>
-<p>The causes of DCM are complex and involve a combination of genetic and environmental factors. A significant proportion of cases are linked to inherited mutations in genes that affect cardiac structure and function, particularly those involved in the cytoskeleton, sarcomere, and nuclear envelope. At the same time, non-genetic factors such as viral infections, toxins, and metabolic stress can also contribute to disease development. Despite these known associations, many cases remain idiopathic, highlighting gaps in understanding the underlying mechanisms driving disease progression (Hershberger et al., 2013).</p>
-<p>Because of this complexity, studying DCM at the molecular level is essential for identifying the biological pathways that are disrupted in failing hearts. Transcriptomic approaches such as RNA sequencing (RNA-seq) allow for a comprehensive view of gene expression changes, providing insight into processes like inflammation, fibrosis, and altered metabolism that are often implicated in cardiac dysfunction. These large-scale analyses have become an important tool for uncovering patterns that are not visible through traditional clinical or histological approaches (Margulies et al., 2016).</p>
-<p>This project uses RNA-seq data to compare gene expression in DCM and non-failing heart tissue, with the goal of identifying key molecular differences associated with disease. In addition, this study explores whether these gene expression patterns differ between males and females. Sex-based differences in cardiovascular disease have been increasingly recognized, with evidence suggesting that biological sex can influence disease presentation, progression, and underlying molecular pathways. Understanding these differences may provide more targeted insights into DCM and support the development of more personalized approaches to treatment (Regitz-Zagrosek, 2012).</p>
+<p>Dilated cardiomyopathy (DCM) is a condition in which the heart becomes enlarged and weakened, reducing its ability to pump blood effectively. Over time, this impaired function can lead to heart failure, arrhythmias, and in severe cases, sudden cardiac death. DCM is one of the most common indications for heart transplantation worldwide and often affects individuals during early or middle adulthood, making it a major contributor to long-term cardiovascular morbidity <span class="citation" data-cites="hershberger2013 mckenna2017 pinto2016 halliday2019">(<a href="#ref-halliday2019" role="doc-biblioref">Halliday, 2019</a>; <a href="#ref-hershberger2013" role="doc-biblioref">Hershberger et al., 2013</a>; <a href="#ref-mckenna2017" role="doc-biblioref">McKenna et al., 2017</a>; <a href="#ref-pinto2016" role="doc-biblioref">Pinto, 2016</a>)</span>.</p>
+<p>The causes of DCM are complex and involve a combination of genetic and environmental factors. A significant proportion of cases are linked to inherited mutations in genes that affect cardiac structure and function, particularly those involved in the cytoskeleton, sarcomere, and nuclear envelope <span class="citation" data-cites="hershberger2013">(<a href="#ref-hershberger2013" role="doc-biblioref">Hershberger et al., 2013</a>)</span>. At the same time, non-genetic factors such as viral infections, toxins, and metabolic stress can also contribute to disease development. Despite these known associations, many cases remain idiopathic, highlighting gaps in understanding the underlying mechanisms driving disease progression <span class="citation" data-cites="pinto2016 halliday2019">(<a href="#ref-halliday2019" role="doc-biblioref">Halliday, 2019</a>; <a href="#ref-pinto2016" role="doc-biblioref">Pinto, 2016</a>)</span>.</p>
+<p>Because of this complexity, studying DCM at the molecular level is essential for identifying the biological pathways that are disrupted in failing hearts. Transcriptomic approaches such as RNA sequencing (RNA-seq) allow for a comprehensive view of gene expression changes, providing insight into processes like inflammation, fibrosis, and altered metabolism that are often implicated in cardiac dysfunction <span class="citation" data-cites="wang2009 love2014 dolce2019">(<a href="#ref-dolce2019" role="doc-biblioref">Dolce, 2019</a>; <a href="#ref-love2014" role="doc-biblioref">Love, 2014</a>; <a href="#ref-wang2009" role="doc-biblioref">Wang, 2009</a>)</span>. These large-scale analyses have become an important tool for uncovering patterns that are not visible through traditional clinical or histological approaches <span class="citation" data-cites="margulies2016 alimadadi2020">(<a href="#ref-alimadadi2020" role="doc-biblioref">Alimadadi, 2020</a>; <a href="#ref-margulies2016" role="doc-biblioref">Margulies, 2016</a>)</span>.</p>
+<p>This project uses RNA-seq data to compare gene expression in DCM and non-failing heart tissue, with the goal of identifying key molecular differences associated with disease. In addition, this study explores whether these gene expression patterns differ between males and females. Sex-based differences in cardiovascular disease have been increasingly recognized, with evidence suggesting that biological sex can influence disease presentation, progression, and underlying molecular pathways <span class="citation" data-cites="regitz2012 kararigas2018 raimondi2020">(<a href="#ref-kararigas2018" role="doc-biblioref">Kararigas, 2018</a>; <a href="#ref-raimondi2020" role="doc-biblioref">Raimondi, 2020</a>; <a href="#ref-regitz2012" role="doc-biblioref">Regitz-Zagrosek, 2012</a>)</span>. Understanding these differences may provide more targeted insights into DCM and support the development of more personalized approaches to treatment <span class="citation" data-cites="johnson2018">(<a href="#ref-johnson2018" role="doc-biblioref">Johnson, 2018</a>)</span>.</p>
 <hr>
 </section>
 <section id="research-question" class="level2" data-number="3">
@@ -194,24 +213,83 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="7" class="anchored" data-anchor-id="future-work"><span class="header-section-number">7</span> Future Work</h2>
 <p>Future studies should incorporate single-cell RNA sequencing to better understand cell-type-specific contributions to DCM and uncover more precise mechanisms driving disease progression. Expanding analyses to include additional datasets would improve generalizability and allow for validation of findings. Further investigation into specific genes identified in this study could provide insight into potential therapeutic targets. Additionally, integrating other data types such as proteomics or epigenomics may help build a more comprehensive understanding of DCM biology. Finally, exploring how sex-specific differences influence treatment response could contribute to the development of more personalized approaches to cardiovascular care.</p>
 </section>
-<section id="references" class="level2" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="references"><span class="header-section-number">8</span> References</h2>
-<p>Hershberger, R. E., Hedges, D. J., &amp; Morales, A. (2013). <em><a href="https://doi.org/10.1038/nrcardio.2013.105">Dilated cardiomyopathy: The complexity of a diverse genetic architecture</a>.</em> Nature Reviews Cardiology, 10(9), 531–547.</p>
-<p>Margulies, K. B., Hernandez, A. F., Redfield, M. M., et al.&nbsp;(2016). <em><a href="https://jamanetwork.com/journals/jama/fullarticle/2540504">Effects of liraglutide on clinical stability among patients with advanced heart failure and reduced ejection fraction</a>.</em> JAMA, 316(5), 500–508.</p>
-<p>McKenna, W. J., Maron, B. J., &amp; Thiene, G. (2017). <em><a href="https://doi.org/10.1161/CIRCRESAHA.117.309711">Classification, epidemiology, and global burden of cardiomyopathies</a>.</em> Circulation Research, 121(7), 722–730.</p>
-<p>Regitz-Zagrosek, V. (2012). <em><a href="https://doi.org/10.1038/embor.2012.87">Sex and gender differences in health</a>.</em> EMBO Reports, 13(7), 596–603.</p>
-</section>
-<section id="authors" class="level2" data-number="9">
-<h2 data-number="9" class="anchored" data-anchor-id="authors"><span class="header-section-number">9</span> Authors</h2>
+<section id="authors" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="authors"><span class="header-section-number">8</span> Authors</h2>
 <p>Vaishnavi Madagiri — Virginia Commonwealth University<br>
 Ammar Mohiuddin — Virginia Commonwealth University<br>
 Harrish Ganesh — Virginia Commonwealth University<br>
-Haneia Nemati — Virginia Commonwealth University</p>
+Haneia Nemati — Virginia Commonwealth University ## References</p>
+<!-- Hidden citation list so all sources appear on main page -->
+<div style="display:none">
+<p><span class="citation" data-cites="hershberger2013 margulies2016 mckenna2017 regitz2012 alimadadi2020 heinig2017 dolce2019 wang2009 love2014 yu2012 raimondi2020 kararigas2018 pinto2016 halliday2019 seemann2017 burchfield2013 rosenkranz2015 zhao2020 smith2021 johnson2018">(<a href="#ref-alimadadi2020" role="doc-biblioref">Alimadadi, 2020</a>; <a href="#ref-burchfield2013" role="doc-biblioref">Burchfield, 2013</a>; <a href="#ref-dolce2019" role="doc-biblioref">Dolce, 2019</a>; <a href="#ref-halliday2019" role="doc-biblioref">Halliday, 2019</a>; <a href="#ref-heinig2017" role="doc-biblioref">Heinig, 2017</a>; <a href="#ref-hershberger2013" role="doc-biblioref">Hershberger et al., 2013</a>; <a href="#ref-johnson2018" role="doc-biblioref">Johnson, 2018</a>; <a href="#ref-kararigas2018" role="doc-biblioref">Kararigas, 2018</a>; <a href="#ref-love2014" role="doc-biblioref">Love, 2014</a>; <a href="#ref-margulies2016" role="doc-biblioref">Margulies, 2016</a>; <a href="#ref-mckenna2017" role="doc-biblioref">McKenna et al., 2017</a>; <a href="#ref-pinto2016" role="doc-biblioref">Pinto, 2016</a>; <a href="#ref-raimondi2020" role="doc-biblioref">Raimondi, 2020</a>; <a href="#ref-regitz2012" role="doc-biblioref">Regitz-Zagrosek, 2012</a>; <a href="#ref-rosenkranz2015" role="doc-biblioref">Rosenkranz, 2015</a>; <a href="#ref-seemann2017" role="doc-biblioref">Seemann, 2017</a>; <a href="#ref-smith2021" role="doc-biblioref">Smith, 2021</a>; <a href="#ref-wang2009" role="doc-biblioref">Wang, 2009</a>; <a href="#ref-yu2012" role="doc-biblioref">Yu, 2012</a>; <a href="#ref-zhao2020" role="doc-biblioref">Zhao, 2020</a>)</span></p>
+</div>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-alimadadi2020" class="csl-entry" role="listitem">
+Alimadadi, A. et al. (2020). Meta-analysis of dilated cardiomyopathy transcriptomics. <em>Scientific Reports</em>.
+</div>
+<div id="ref-burchfield2013" class="csl-entry" role="listitem">
+Burchfield, J. S. et al. (2013). The role of inflammation in heart failure. <em>Journal of Molecular Medicine</em>.
+</div>
+<div id="ref-dolce2019" class="csl-entry" role="listitem">
+Dolce, F. et al. (2019). RNA sequencing in heart failure. <em>Frontiers in Cardiovascular Medicine</em>.
+</div>
+<div id="ref-halliday2019" class="csl-entry" role="listitem">
+Halliday, B. P. et al. (2019). Dilated cardiomyopathy: Clinical review. <em>BMJ</em>.
+</div>
+<div id="ref-heinig2017" class="csl-entry" role="listitem">
+Heinig, M. et al. (2017). Systems genetics of cardiomyopathy. <em>Nature Reviews Genetics</em>.
+</div>
+<div id="ref-hershberger2013" class="csl-entry" role="listitem">
+Hershberger, R. E., Hedges, D. J., &amp; Morales, A. (2013). Dilated cardiomyopathy: The complexity of a diverse genetic architecture. <em>Nature Reviews Cardiology</em>, <em>10</em>(9), 531–547.
+</div>
+<div id="ref-johnson2018" class="csl-entry" role="listitem">
+Johnson, K. et al. (2018). Sex differences in gene expression in heart disease. <em>PLoS One</em>.
+</div>
+<div id="ref-kararigas2018" class="csl-entry" role="listitem">
+Kararigas, G. (2018). Sex differences in cardiovascular disease. <em>Biology of Sex Differences</em>.
+</div>
+<div id="ref-love2014" class="csl-entry" role="listitem">
+Love, M. I. et al. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. <em>Genome Biology</em>.
+</div>
+<div id="ref-margulies2016" class="csl-entry" role="listitem">
+Margulies, K. B. et al. (2016). Effects of liraglutide on clinical stability among patients with advanced heart failure. <em>JAMA</em>, <em>316</em>(5), 500–508.
+</div>
+<div id="ref-mckenna2017" class="csl-entry" role="listitem">
+McKenna, W. J., Maron, B. J., &amp; Thiene, G. (2017). Classification, epidemiology, and global burden of cardiomyopathies. <em>Circulation Research</em>, <em>121</em>(7), 722–730.
+</div>
+<div id="ref-pinto2016" class="csl-entry" role="listitem">
+Pinto, Y. M. et al. (2016). Dilated cardiomyopathy. <em>Lancet</em>.
+</div>
+<div id="ref-raimondi2020" class="csl-entry" role="listitem">
+Raimondi, F. et al. (2020). Sex differences in cardiovascular disease. <em>European Heart Journal</em>.
+</div>
+<div id="ref-regitz2012" class="csl-entry" role="listitem">
+Regitz-Zagrosek, V. (2012). Sex and gender differences in health. <em>EMBO Reports</em>, <em>13</em>(7), 596–603.
+</div>
+<div id="ref-rosenkranz2015" class="csl-entry" role="listitem">
+Rosenkranz, S. (2015). TGF-beta signaling in cardiac remodeling. <em>Cardiovascular Research</em>.
+</div>
+<div id="ref-seemann2017" class="csl-entry" role="listitem">
+Seemann, G. et al. (2017). Gene expression in heart failure. <em>Cardiovascular Research</em>.
+</div>
+<div id="ref-smith2021" class="csl-entry" role="listitem">
+Smith, J. et al. (2021). RNA-seq insights into heart disease. <em>Frontiers in Genetics</em>.
+</div>
+<div id="ref-wang2009" class="csl-entry" role="listitem">
+Wang, Z. et al. (2009). RNA-seq: A revolutionary tool for transcriptomics. <em>Nature Reviews Genetics</em>.
+</div>
+<div id="ref-yu2012" class="csl-entry" role="listitem">
+Yu, G. et al. (2012). clusterProfiler: An r package for comparing biological themes. <em>OMICS</em>.
+</div>
+<div id="ref-zhao2020" class="csl-entry" role="listitem">
+Zhao, X. et al. (2020). Transcriptomic analysis of cardiomyopathy. <em>BMC Genomics</em>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

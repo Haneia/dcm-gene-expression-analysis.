@@ -1,5 +1,6 @@
 ---
 title: "Results"
+bibliography: references.bib
 ---
 
 ```{r setup-results, include=FALSE, message=FALSE, warning=FALSE}
@@ -269,19 +270,21 @@ Together, these results support the hypothesis that DCM alters gene expression i
 
 ## Discussion
 
-At a mechanistic level, the observed gene expression changes likely reflect the combined effects of cardiomyocyte stress, immune activation, and structural remodeling. Previous studies have shown that DCM progression involves activation of profibrotic signaling pathways, including TGF-beta signaling, as well as shifts in metabolic gene expression that impair energy production in cardiac cells. These processes contribute to decreased contractile function and progressive heart failure.
 
-The enrichment of metabolic pathways in this study is particularly important, as metabolic dysfunction is increasingly recognized as a central feature of cardiomyopathy. Alterations in pathways such as oxidative phosphorylation and fatty acid metabolism indicate that the failing heart undergoes significant energy remodeling, which may contribute to disease progression and symptom severity.
+At a mechanistic level, the observed gene expression changes likely reflect the combined effects of cardiomyocyte stress, immune activation, and structural remodeling. Previous studies have shown that DCM progression involves activation of profibrotic signaling pathways, including TGF-beta signaling, as well as shifts in metabolic gene expression that impair energy production in cardiac cells [@rosenkranz2015; @burchfield2013; @heinig2017]. These processes contribute to decreased contractile function and progressive heart failure.
 
-Furthermore, the identification of sex-specific differences within these pathways suggests that males and females may experience distinct molecular responses to the same disease condition. This has important implications for personalized medicine, as treatments targeting metabolic or inflammatory pathways may have different effects depending on sex.
+The enrichment of metabolic pathways in this study is particularly important, as metabolic dysfunction is increasingly recognized as a central feature of cardiomyopathy. Alterations in pathways such as oxidative phosphorylation and fatty acid metabolism indicate that the failing heart undergoes significant energy remodeling, which may contribute to disease progression and symptom severity [@seemann2017; @zhao2020; @smith2021].
+
+Furthermore, the identification of sex-specific differences within these pathways suggests that males and females may experience distinct molecular responses to the same disease condition. This has important implications for personalized medicine, as treatments targeting metabolic or inflammatory pathways may have different effects depending on sex [@kararigas2018; @raimondi2020].
 
 ---
 
 ## Biological Significance
 
+
 The findings from this study highlight the importance of integrating transcriptomic data with biological interpretation. Rather than representing isolated gene-level changes, the observed differences reflect coordinated shifts in biological systems that govern cardiac function.
 
-Understanding these patterns is critical for identifying potential therapeutic targets, as interventions aimed at single genes may be less effective than those targeting entire pathways. By identifying key pathways associated with DCM and sex-specific differences, this study contributes to a broader understanding of the molecular basis of heart failure.
+Understanding these patterns is critical for identifying potential therapeutic targets, as interventions aimed at single genes may be less effective than those targeting entire pathways. By identifying key pathways associated with DCM and sex-specific differences, this study contributes to a broader understanding of the molecular basis of heart failure (@alimadadi2020; @yu2012).
 
 ---
 

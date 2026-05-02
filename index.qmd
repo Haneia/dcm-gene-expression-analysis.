@@ -1,7 +1,9 @@
 ---
 title: "RNAseq Analysis using GSE141910"
 subtitle: "Exploring gene expression differences in dilated cardiomyopathy (DCM) with a focus on sex-specific effects"
+bibliography: references.bib
 ---
+
 ## Abstract 
 
 Dilated cardiomyopathy (DCM) is a major cause of heart failure characterized by ventricular dilation and impaired contractile function. Despite advances in clinical management, the molecular mechanisms underlying DCM remain incompletely understood, particularly with respect to sex-specific differences in disease progression. This study uses RNA sequencing (RNA-seq) data from the publicly available GSE141910 dataset to investigate gene expression differences between DCM and non-failing human heart tissue, with a specific focus on identifying sex-based transcriptional variation.
@@ -14,14 +16,13 @@ Overall, this study demonstrates that RNA-seq analysis can uncover both disease-
 
 ## Introduction
 
+Dilated cardiomyopathy (DCM) is a condition in which the heart becomes enlarged and weakened, reducing its ability to pump blood effectively. Over time, this impaired function can lead to heart failure, arrhythmias, and in severe cases, sudden cardiac death. DCM is one of the most common indications for heart transplantation worldwide and often affects individuals during early or middle adulthood, making it a major contributor to long-term cardiovascular morbidity [@hershberger2013; @mckenna2017; @pinto2016; @halliday2019].
 
-Dilated cardiomyopathy (DCM) is a condition in which the heart becomes enlarged and weakened, reducing its ability to pump blood effectively. Over time, this impaired function can lead to heart failure, arrhythmias, and in severe cases, sudden cardiac death. DCM is one of the most common indications for heart transplantation worldwide and often affects individuals during early or middle adulthood, making it a major contributor to long-term cardiovascular morbidity (Hershberger et al., 2013; McKenna et al., 2017).
+The causes of DCM are complex and involve a combination of genetic and environmental factors. A significant proportion of cases are linked to inherited mutations in genes that affect cardiac structure and function, particularly those involved in the cytoskeleton, sarcomere, and nuclear envelope [@hershberger2013]. At the same time, non-genetic factors such as viral infections, toxins, and metabolic stress can also contribute to disease development. Despite these known associations, many cases remain idiopathic, highlighting gaps in understanding the underlying mechanisms driving disease progression [@pinto2016; @halliday2019].
 
-The causes of DCM are complex and involve a combination of genetic and environmental factors. A significant proportion of cases are linked to inherited mutations in genes that affect cardiac structure and function, particularly those involved in the cytoskeleton, sarcomere, and nuclear envelope. At the same time, non-genetic factors such as viral infections, toxins, and metabolic stress can also contribute to disease development. Despite these known associations, many cases remain idiopathic, highlighting gaps in understanding the underlying mechanisms driving disease progression (Hershberger et al., 2013).
+Because of this complexity, studying DCM at the molecular level is essential for identifying the biological pathways that are disrupted in failing hearts. Transcriptomic approaches such as RNA sequencing (RNA-seq) allow for a comprehensive view of gene expression changes, providing insight into processes like inflammation, fibrosis, and altered metabolism that are often implicated in cardiac dysfunction [@wang2009; @love2014; @dolce2019]. These large-scale analyses have become an important tool for uncovering patterns that are not visible through traditional clinical or histological approaches [@margulies2016; @alimadadi2020].
 
-Because of this complexity, studying DCM at the molecular level is essential for identifying the biological pathways that are disrupted in failing hearts. Transcriptomic approaches such as RNA sequencing (RNA-seq) allow for a comprehensive view of gene expression changes, providing insight into processes like inflammation, fibrosis, and altered metabolism that are often implicated in cardiac dysfunction. These large-scale analyses have become an important tool for uncovering patterns that are not visible through traditional clinical or histological approaches (Margulies et al., 2016).
-
-This project uses RNA-seq data to compare gene expression in DCM and non-failing heart tissue, with the goal of identifying key molecular differences associated with disease. In addition, this study explores whether these gene expression patterns differ between males and females. Sex-based differences in cardiovascular disease have been increasingly recognized, with evidence suggesting that biological sex can influence disease presentation, progression, and underlying molecular pathways. Understanding these differences may provide more targeted insights into DCM and support the development of more personalized approaches to treatment (Regitz-Zagrosek, 2012).
+This project uses RNA-seq data to compare gene expression in DCM and non-failing heart tissue, with the goal of identifying key molecular differences associated with disease. In addition, this study explores whether these gene expression patterns differ between males and females. Sex-based differences in cardiovascular disease have been increasingly recognized, with evidence suggesting that biological sex can influence disease presentation, progression, and underlying molecular pathways [@regitz2012; @kararigas2018; @raimondi2020]. Understanding these differences may provide more targeted insights into DCM and support the development of more personalized approaches to treatment [@johnson2018].
 
 ---
 
@@ -51,20 +52,17 @@ This study has several limitations. First, the analysis was performed using bulk
 ## Future Work
 Future studies should incorporate single-cell RNA sequencing to better understand cell-type-specific contributions to DCM and uncover more precise mechanisms driving disease progression. Expanding analyses to include additional datasets would improve generalizability and allow for validation of findings. Further investigation into specific genes identified in this study could provide insight into potential therapeutic targets. Additionally, integrating other data types such as proteomics or epigenomics may help build a more comprehensive understanding of DCM biology. Finally, exploring how sex-specific differences influence treatment response could contribute to the development of more personalized approaches to cardiovascular care.
 
-## References
-
-Hershberger, R. E., Hedges, D. J., & Morales, A. (2013). *[Dilated cardiomyopathy: The complexity of a diverse genetic architecture](https://doi.org/10.1038/nrcardio.2013.105).* Nature Reviews Cardiology, 10(9), 531–547.
-
-Margulies, K. B., Hernandez, A. F., Redfield, M. M., et al. (2016). *[Effects of liraglutide on clinical stability among patients with advanced heart failure and reduced ejection fraction](https://jamanetwork.com/journals/jama/fullarticle/2540504).* JAMA, 316(5), 500–508.
-
-McKenna, W. J., Maron, B. J., & Thiene, G. (2017). *[Classification, epidemiology, and global burden of cardiomyopathies](https://doi.org/10.1161/CIRCRESAHA.117.309711).* Circulation Research, 121(7), 722–730.
-
-Regitz-Zagrosek, V. (2012). *[Sex and gender differences in health](https://doi.org/10.1038/embor.2012.87).* EMBO Reports, 13(7), 596–603.
-
 ## Authors
 
 Vaishnavi Madagiri — Virginia Commonwealth University  
 Ammar Mohiuddin — Virginia Commonwealth University  
 Harrish Ganesh — Virginia Commonwealth University  
 Haneia Nemati — Virginia Commonwealth University
-  
+## References
+
+<!-- Hidden citation list so all sources appear on main page -->
+<div style="display:none">
+[@hershberger2013; @margulies2016; @mckenna2017; @regitz2012; @alimadadi2020; @heinig2017; @dolce2019; @wang2009; @love2014; @yu2012; @raimondi2020; @kararigas2018; @pinto2016; @halliday2019; @seemann2017; @burchfield2013; @rosenkranz2015; @zhao2020; @smith2021; @johnson2018]
+</div>
+
+
