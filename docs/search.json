@@ -140,38 +140,31 @@
     "text": "Dilated cardiomyopathy (DCM) is a condition in which the heart becomes enlarged and weakened, reducing its ability to pump blood effectively. Over time, this impaired function can lead to heart failure, arrhythmias, and in severe cases, sudden cardiac death. DCM is one of the most common indications for heart transplantation worldwide and often affects individuals during early or middle adulthood, making it a major contributor to long-term cardiovascular morbidity (Hershberger et al., 2013; McKenna et al., 2017).\nThe causes of DCM are complex and involve a combination of genetic and environmental factors. A significant proportion of cases are linked to inherited mutations in genes that affect cardiac structure and function, particularly those involved in the cytoskeleton, sarcomere, and nuclear envelope. At the same time, non-genetic factors such as viral infections, toxins, and metabolic stress can also contribute to disease development. Despite these known associations, many cases remain idiopathic, highlighting gaps in understanding the underlying mechanisms driving disease progression (Hershberger et al., 2013).\nBecause of this complexity, studying DCM at the molecular level is essential for identifying the biological pathways that are disrupted in failing hearts. Transcriptomic approaches such as RNA sequencing (RNA-seq) allow for a comprehensive view of gene expression changes, providing insight into processes like inflammation, fibrosis, and altered metabolism that are often implicated in cardiac dysfunction. These large-scale analyses have become an important tool for uncovering patterns that are not visible through traditional clinical or histological approaches (Margulies et al., 2016).\nThis project uses RNA-seq data to compare gene expression in DCM and non-failing heart tissue, with the goal of identifying key molecular differences associated with disease. In addition, this study explores whether these gene expression patterns differ between males and females. Sex-based differences in cardiovascular disease have been increasingly recognized, with evidence suggesting that biological sex can influence disease presentation, progression, and underlying molecular pathways. Understanding these differences may provide more targeted insights into DCM and support the development of more personalized approaches to treatment (Regitz-Zagrosek, 2012)."
   },
   {
-    "objectID": "index.html#references",
-    "href": "index.html#references",
-    "title": "RNAseq Analysis using GSE141910",
-    "section": "2 References",
-    "text": "2 References\nHershberger, R. E., Hedges, D. J., & Morales, A. (2013). Dilated cardiomyopathy: The complexity of a diverse genetic architecture. Nature Reviews Cardiology, 10(9), 531–547.\nMargulies, K. B., Hernandez, A. F., Redfield, M. M., et al. (2016). Effects of liraglutide on clinical stability among patients with advanced heart failure and reduced ejection fraction. JAMA, 316(5), 500–508.\nMcKenna, W. J., Maron, B. J., & Thiene, G. (2017). Classification, epidemiology, and global burden of cardiomyopathies. Circulation Research, 121(7), 722–730.\nRegitz-Zagrosek, V. (2012). Sex and gender differences in health. EMBO Reports, 13(7), 596–603."
-  },
-  {
     "objectID": "index.html#research-question",
     "href": "index.html#research-question",
     "title": "RNAseq Analysis using GSE141910",
-    "section": "3 Research Question",
-    "text": "3 Research Question\nWhich genes and molecular pathways differ between males and females with dilated cardiomyopathy (DCM) compared to non-failing hearts?"
+    "section": "2 Research Question",
+    "text": "2 Research Question\nWhich genes and molecular pathways differ between males and females with dilated cardiomyopathy (DCM) compared to non-failing hearts?"
   },
   {
     "objectID": "index.html#hypothesis",
     "href": "index.html#hypothesis",
     "title": "RNAseq Analysis using GSE141910",
-    "section": "4 Hypothesis",
-    "text": "4 Hypothesis\nDCM hearts show distinct gene expression and pathway changes compared to non-failing hearts, with stronger inflammatory and remodeling signals. These effects are expected to differ between males and females."
+    "section": "3 Hypothesis",
+    "text": "3 Hypothesis\nDCM hearts show distinct gene expression and pathway changes compared to non-failing hearts, with stronger inflammatory and remodeling signals. These effects are expected to differ between males and females."
   },
   {
-    "objectID": "index.html#references-1",
-    "href": "index.html#references-1",
+    "objectID": "index.html#references",
+    "href": "index.html#references",
     "title": "RNAseq Analysis using GSE141910",
-    "section": "5 References",
-    "text": "5 References\nHershberger, R. E., Hedges, D. J., & Morales, A. (2013). Dilated cardiomyopathy: The complexity of a diverse genetic architecture. Nature Reviews Cardiology, 10(9), 531–547.\nMargulies, K. B., Hernandez, A. F., Redfield, M. M., et al. (2016). Effects of liraglutide on clinical stability among patients with advanced heart failure and reduced ejection fraction. JAMA, 316(5), 500–508.\nMcKenna, W. J., Maron, B. J., & Thiene, G. (2017). Classification, epidemiology, and global burden of cardiomyopathies. Circulation Research, 121(7), 722–730.\nRegitz-Zagrosek, V. (2012). Sex and gender differences in health. EMBO Reports, 13(7), 596–603."
+    "section": "4 References",
+    "text": "4 References\nHershberger, R. E., Hedges, D. J., & Morales, A. (2013). Dilated cardiomyopathy: The complexity of a diverse genetic architecture. Nature Reviews Cardiology, 10(9), 531–547.\nMargulies, K. B., Hernandez, A. F., Redfield, M. M., et al. (2016). Effects of liraglutide on clinical stability among patients with advanced heart failure and reduced ejection fraction. JAMA, 316(5), 500–508.\nMcKenna, W. J., Maron, B. J., & Thiene, G. (2017). Classification, epidemiology, and global burden of cardiomyopathies. Circulation Research, 121(7), 722–730.\nRegitz-Zagrosek, V. (2012). Sex and gender differences in health. EMBO Reports, 13(7), 596–603."
   },
   {
     "objectID": "index.html#authors",
     "href": "index.html#authors",
     "title": "RNAseq Analysis using GSE141910",
-    "section": "6 Authors",
-    "text": "6 Authors\nVaishnavi Madagiri — Virginia Commonwealth University\nAmmar Mohiuddin — Virginia Commonwealth University\nHarrish Ganesh — Virginia Commonwealth University\nHaneia Nemati — Virginia Commonwealth University"
+    "section": "5 Authors",
+    "text": "5 Authors\nVaishnavi Madagiri — Virginia Commonwealth University\nAmmar Mohiuddin — Virginia Commonwealth University\nHarrish Ganesh — Virginia Commonwealth University\nHaneia Nemati — Virginia Commonwealth University"
   }
 ]
